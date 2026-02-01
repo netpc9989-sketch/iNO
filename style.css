@@ -59,3 +59,46 @@ button {
   padding: 12px 0;
   box-shadow: 0 -4px 12px rgba(0,0,0,0.1);
 }
+.admin {
+  position: fixed;
+  inset: 0;
+  background: #ffffff;
+  padding: 20px;
+  z-index: 9999;
+  overflow-y: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.admin h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.admin input,
+.admin textarea,
+.admin button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.admin button {
+  background: #6C63FF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.admin .danger {
+  background: #ff4d4d;
+}
